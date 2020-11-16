@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta charset="UTF-8" />
+	<link rel="shortcut icon" type="image/x-icon" href="https://jelena-vk-itt.github.io/jvk-tudt-notes/cswd/res/images/logo.png" />
+	<link rel="stylesheet" type="text/css" href="https://jelena-vk-itt.github.io/jvk-tudt-notes/common/res/styles/common.css">
+	
+	<title>Javascript Conditional Statements and Loops</title>
+	<style>
+	 body { background: lightgray; }
+	</style>
+    </head>
+
+    <body>
+	<header id="tudheader">
+	    <img src="https://jelena-vk-itt.github.io/jvk-tudt-notes/common/res/images/tudublin_logo.png" alt="TU Dublin Logo">
+	    <div id="tuddepttext">
+		<p>Tallaght Campus</p>
+		<p>Department of Computing</p>
+	    </div>
+	    <img id="rightlogo" src="https://jelena-vk-itt.github.io/jvk-tudt-notes/cswd/res/images/logo.png" alt="CSWD Logo">
+	</header>
+
+	<nav>
+	    
+	</nav>
+
+	<div id="content">
+	    
+	    <h1>Javascript Conditional Statement Exercises</h1>
+	    
+	    <section class="box">
+		<h3>Exercise 1: Toggle Button Disabled Property</h3>
+		<ul>
+		    <li>Open the files <em>cond_ex1.html</em> and <em>cond_ex1.js</em> in a text editor and load the html file in a browser.</li>
+		    <li>Include the Javascript file in the HTML file using a <span class="fw">script</span> element.</li>
+		    <li>Find two buttons defined in the HTML file: <strong>Hello button</strong> and <strong>Disable/enable hello button</strong>.</li>
+		    <li>The <strong>Hello button</strong> has a handler set for the event <span class="fw">click</span>. Examine it then click this button to see if what you expected happens.</li>
+		    <li>A function called <span class="fw">toggleHelloButtonDisabled</span> is set as the handler for the event <span class="fw">click</span> on button <strong>Disable/enable hello button</strong>. Click this button. Nothing should happen because the function currently does nothing.</li>
+		    <li>Your task is to find the function <span class="fw">toggleHelloButtonDisabled</span> in the Javascript file and define its behaviour, so that it disables button <strong>Hello button</strong> if enabled and enables it if it is disabled.</li>
+		    <li>The element object property that you need to change is called <span class="fw">disabled</span> and it should be set to a boolean.</li>
+		    <li>A video of the expected behaviour can be found <a href="https://screencast-o-matic.com/watch/cYXQY7Mudy">here</a>.</li>
+		</ul>
+	    </section>
+
+	    <section class="box mt2">
+		<h3>Exercise 2: Calculator Revisited</h3>
+		<ul>
+		    <li>Repeat the calculator exercise from the <strong>JS with HTML Inputs</strong> lab, making sure that all the operations are handled with a single function. The function should have a parameter called <span class="fw">operation</span>, with possible values <span class="fw">'+'</span>, <span class="fw">'-'</span>, <span class="fw">'*'</span> and <span class="fw">'/'</span>.</li>
+		    <li>The HTML for this exercise is provided as cond_ex2.html. In it, the handler has been set for the add and subtract buttons but you must add the other event handlers.</li>
+		    <li>The Javascript file <em>cond_ex2.js</em> has been included in the HTML but you have to create the file.</li>
+		</ul>
+	    </section>
+
+	    <script src="https://jelena-vk-itt.github.io/jvk-tudt-notes/common/res/scripts/common.js"></script>
+	    <script src="https://jelena-vk-itt.github.io/jvk-tudt-notes/common/res/scripts/main.js"></script>
+	    <script>init_all();</script>
+
+	    <!-- Script file containing exercises -->
+	    <script src="ex.js"></script>
+	</div>
+    </body>
+</html>
